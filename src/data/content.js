@@ -12,7 +12,7 @@ export const graduateInfo = {
   graduationYear: "2023",
   gpa: "3.89",
   motto: '"while(alive) { learn(); code(); repeat(); } // finally, return Associate Degree;  🎓"',
-  photo: "./public/image.jpeg",
+  photo: "/image.jpeg",
   github: "https://github.com/VO1DRB",
   // linkedin: "linkedin.com/in/rizkypratama",
   signature: "MJ.exe",
@@ -78,12 +78,12 @@ export const stats = {
 };
 
 export const galleryPhotos = [
-  { id: 1, src:"./public/waras.jpeg", caption: "Day 1 — masih bersih, belum kena deadline" },
-  { id: 2, src: "./public/ngelu2.jpeg", caption: "Begadang bareng squad sampe subuh ☕" },
-  { id: 3, src: "./public/meletup.png", caption: "Hackathon 48 jam non-stop 💻" },
-  { id: 4, src: "./public/ngelu.jpeg", caption: "CPU usage 100% 🧠" },
-  { id: 5, src: "/public/lulus.jpeg", caption: "LULUS! System.exit(SUCCESS) 🎓" },
-  { id: 6, src: "/public/fam.jpeg", caption: "Foto toga bareng keluarga 🥹" },
+  { id: 1, src:"/waras.jpeg", caption: "Day 1 — masih bersih, belum kena deadline" },
+  { id: 2, src: "/ngelu2.jpeg", caption: "Begadang bareng squad sampe subuh ☕" },
+  { id: 3, src: "/meletup.png", caption: "Hackathon 48 jam non-stop 💻" },
+  { id: 4, src: "/ngelu.jpeg", caption: "CPU usage 100% 🧠" },
+  { id: 5, src: "/lulus.jpeg", caption: "LULUS! System.exit(SUCCESS) 🎓" },
+  { id: 6, src: "/fam.jpeg", caption: "Foto toga bareng keluarga 🥹" },
 ];
 
 export const musicUrl = null;
